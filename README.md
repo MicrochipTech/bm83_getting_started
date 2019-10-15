@@ -1,9 +1,8 @@
 # BM83_GETTING_STARTED
 > “Wireless Made Easy!" - BM83 Getting Started with Embedded and Host modes with Multi-speaker (MSPK) Firmware
+
 **The BM83 is a fully-certified Bluetooth 5.0 dual-mode audio module (Bluetooth Classic and BLE) with embedded DSP (AAC/SBC support along advanced audio and voice processing - WB speech, AEC  and Noise Reduction)**
-</br>
 **This guide demonstrates first the Embedded mode (BM83 as a standalone device) and then the Host mode (BM83 + PIC32MX450F256L, dual chip to unleash performance).**
-</br>
 **This solution integrates the Multi-speaker (MSPK) Firmware, an all-in-one Firmware, that covers Mono/Stereo and more than 2 speakers configuration.**
 
 <p>
@@ -231,7 +230,7 @@ Resources:</br>
 <img border="0" alt="BM83 EVB" src="Doc/BM83-EVB_STEREO_SETUP_01.png" width="400">
 
 </br>
-In below example (video), the BM83-EVB is powered up via a short press on MFB key (blue light) then ready to pair thru long press to the MFB key (blue and red lights toggle).
+In below example (video), the BM83-EVB is powered up via a short press on MFB key (blue light) then ready to pair thru long press to the MFB key (blue and red lights toggle).</br>
 
 <a href="https://youtu.be/FLCs_W62KlI" target="_blank">
 <img src="https://img.youtube.com/vi/FLCs_W62KlI/0.jpg" 
