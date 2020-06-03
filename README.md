@@ -31,6 +31,7 @@
     1. [Multi-speaker Configuration](#step1c)
 	1. [Embedded or Host Mode](#step1d)
 	1. [Internal or External Codec](#step1e)
+	1. [LDAC Support](#step1f)
 1. [Overview of our Solutions](#step2)
     1. [Select a speaker](#step2a)
 	1. [Smartphone Apps](#step2b)
@@ -105,10 +106,34 @@ MSPK refers also to Microchip Wireless Concert Technology (WCT).
 
 ### Internal or External Codec <a name="step1e"></a>
 
-The BM83 has a built-in codec. If power requirement of the speaker is < 5W then internal codec can be used. Internal codec provides analog output to connect directly a speaker.
+The BM83 has a built-in codec. If power requirement of the speaker is < 5W then internal codec may be used. 
+</br> Internal codec provides analog output to connect directly a speaker.
 </br>
 For high power speaker, an external class D amplifier if required. External codec interface is through I2S.
+</br>
 
+BM83 offers a flexible approach for codec interface:
+- In Embedded Mode (no external MCU is required)
+   - Internal codec selected (in the GUI Tool), analog output is enabled
+   - External codec in I2S is selected (in the GUI Tool), the turnkey firmware supports only the STA369BW codec
+- In Host Mode (external MCU acting has a Host for the BM83)
+   - Internal codec selected (in the GUI Tool), analog output is enabled
+   - External codec in I2S is selected (in the GUI Tool), you can connect the STA369BW codec or implement any codec and add the corresponding driver in the Host MCU Application code
+
+
+### LDAC Support <a name="step1f"></a>
+
+Using LDAC requires to obtain a license from Sony. 
+https://www.sony.net/Products/LDAC/
+
+LDAC is supported by default in the IS2083 Turnkey firmware available <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/IS2083%20Software%20&%20Tools%20(v1.0.3).zip" target="_blank">here</a></br>
+See the details, page 22 of the <a href="http://www.microchip.com//wwwAppNotes/AppNotes.aspx?appnote=en611934" target="_blank">AppNote AN3118</a></br>
+(Note: By default, LDAC functionality is enabled in the firmware but supported only on IS2083BM-2L2 device)</br>
+
+LDAC requires a specific hardware: IS2083BM-2L2.</br>
+See the details page 9 and 10 in the <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/IS2083-Bluetooth-Stereo-Audio-SoC-Data-Sheet-DS70005403B.pdf" target="_blank">IS2083 Datasheet</a> to check the hardware difference</br>
+
+To summarize, same Turnkey Firmware for LDAC or non-LDAC usage but different hardware.
 
 ## Overview of our Solutions <a name="step2"></a>
 
