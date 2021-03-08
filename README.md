@@ -188,8 +188,8 @@ Mobile Application discovers BLE devices and filters the Microchip Audio devices
 This Mobile Application can be used for Stereo (DSPK) or Multi-speaker (MSPK) audio applications.
 </br>
 MBA is available as code sources and as an App in the respective stores.
-- The source code of the App for Android and iOS are available to download and both come come along with MSPKv1.35 Software Package (located into "Software\Source Code" folder):
-<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/IS2083%20Software%20&%20Tools%20(v1.0.3).zip" target="_blank">http://ww1.microchip.com/downloads/en/DeviceDoc/IS2083%20Software%20&%20Tools%20(v1.0.3).zip</a>
+- The source code of the App for Android and iOS are available to download and both come come along with MSPK2v1.2 Software Package (located into "Software\Source Code" folder):
+<a href="https://ww1.microchip.com/downloads/en/DeviceDoc/IS2083_Turnkey_1.2.0.zip" target="_blank">https://ww1.microchip.com/downloads/en/DeviceDoc/IS2083_Turnkey_1.2.0.zip</a>
 - The Android version of the MBA app is available from the Google Play™ store:
 <a href="https://play.google.com/store/apps/details?id=com.app.microchip.audiowidget&hl=en" target="_blank">https://play.google.com/store/apps/details?id=com.app.microchip.audiowidget&hl=en</a>
 - The iOS version is available in the iTunes® store:
@@ -239,7 +239,7 @@ Resources:</br>
 ### Evaluate Embedded Mode<a name="step2e"></a>
 
 
-<a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM83_Bluetooth_Audio_Development_Board_User_Guide-DS50002902A.pdf" target="_blank">BM83 Bluetooth Audio Development Board User Guide</a> introduces the kit features, gives you guidelines to setup a quick demo to stream audio using the BM83 module in Embedded mode.
+<a href="https://ww1.microchip.com/downloads/en/DeviceDoc/BM83-Bluetooth-Audio-Development-Board-User-Guide-DS50002902B.pdf" target="_blank">BM83 Bluetooth Audio Development Board User Guide</a> introduces the kit features, gives you guidelines to setup a quick demo to stream audio using the BM83 module in Embedded mode.
 </br>
 
 **This demo is based on MSPK 2.0 Firmware and requires some customization and some hardware changes. The Embedded Mode has to be selected from the Config Tool. That simply disable BM83 UART.**
@@ -247,8 +247,8 @@ Resources:</br>
 **Follow the instruction from the BM83 Bluetooth Audio Development Board User Guide**
 </br>
 Resources:</br>
-- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/BM83_Bluetooth_Audio_Development_Board_User_Guide-DS50002902A.pdf">BM83 Bluetooth Audio Development Board User Guide</a>
-- <a href="http://ww1.microchip.com/downloads/en/DeviceDoc/IS2083%20Software%20&%20Tools%20(v1.0.3).zip" target="_blank">BM83 MSPK 1.0.3 Software package</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/BM83-Bluetooth-Audio-Development-Board-User-Guide-DS50002902B.pdf">BM83 Bluetooth Audio Development Board User Guide</a>
+- <a href="https://ww1.microchip.com/downloads/en/DeviceDoc/IS2083_Turnkey_1.2.0.zip" target="_blank">BM83 MSPK2 1.2.0 Software package</a>
 
 
 <p>Setup of the environment with basic speakers and smartphone:</br>
@@ -298,3 +298,12 @@ mode. It includes demo introductions, hardware connection, UART command set, and
 ### ... and no external MCU in Embedded mode<a name="step4b"></a>
 
 
+## Additional ressources <a name="step5"></a>
+
+### BM83 Firmware Update using a PC <a name="step5a"></a>
+
+Follow this video to get started on how to update firmware on BM83 Evaluation board
+
+<a href="https://youtu.be/h04PFR83Wh8" target="_blank">
+<img src="https://img.youtube.com/vi/h04PFR83Wh8/0.jpg" 
+alt="BM83 Firmware Update" width="240"></a>
