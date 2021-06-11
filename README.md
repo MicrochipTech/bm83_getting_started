@@ -1,4 +1,6 @@
 # BM83_GETTING_STARTED
+<img src="Doc/IoT-Made-Easy-Logo.png" width=100>
+
 > “Wireless Made Easy!" - BM83 Getting Started with Embedded and Host modes with Multi-speaker (MSPK) Firmware
 
 **The BM83 is a fully-certified Bluetooth 5.0 dual-mode audio module (Bluetooth Classic and BLE) with embedded DSP (AAC/SBC support along advanced audio and voice processing - WB speech, AEC  and Noise Reduction)**
